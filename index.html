@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SAI SRI CHARAN KOLLI - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        .animation-delay-200 {
+            animation-delay: 200ms;
+        }
+        .animation-delay-400 {
+            animation-delay: 400ms;
+        }
+        .animation-delay-600 {
+            animation-delay: 600ms;
+        }
+        .bg-gradient {
+            background: linear-gradient(to bottom right, #1a202c, #4a5568, #6b46c1);
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #ec4899, #9776e5);
+        }
+    </style>
+</head>
+<body class="bg-gradient text-gray-100 min-h-screen">
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-80 backdrop-filter backdrop-blur-sm shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl sm:text-2xl font-bold text-gradient">SAI SRI CHARAN KOLLI</h1>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:text-pink-500 transition-colors">Home</a>
+                <a href="#experience" class="hover:text-pink-500 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-pink-500 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-pink-500 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-pink-500 transition-colors">Contact</a>
+            </nav>
+            <button id="menuToggle" class="md:hidden text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <nav id="mobileMenu" class="hidden md:hidden bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-2">
+                <a href="#home" class="hover:text-pink-500 transition-colors">Home</a>
+                <a href="#experience" class="hover:text-pink-500 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-pink-500 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-pink-500 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-pink-500 transition-colors">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="py-12 sm:py-16 md:py-20 text-center relative overflow-hidden">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="w-44 h-44 sm:w-56 sm:h-56 mx-auto mb-4 rounded-full border-4 border-pink-500 shadow-lg overflow-hidden bg-gradient-to-r from-pink-500 to-purple-500">
+                <img src="C:\Users\Lenovo\Downloads\new portofolio- charan\images\WhatsApp Image 2024-10-04 at 20.59.38_0bc84152(1)(1).png" alt="KOLLI SAI SRI CHARAN" class="w-full h-full object-cover">
+            </div>
+            
+            
+            <h1 class="text-4xl sm:text-5xl font-bold mb-4 animate-fade-in-up text-gradient"> SAI SRI CHARAN KOLLI</h1>
+            <p class="text-lg sm:text-xl mb-6 sm:mb-8 animate-fade-in-up animation-delay-200">AI Enthusiast | JAVA Developer | Creative Problem Solver</p>
+            <p class="max-w-2xl mx-auto text-base sm:text-lg mb-6 sm:mb-8 animate-fade-in-up animation-delay-400">
+                Individual with a strong foundation in Core Java and Web Development and Python, passionate about working with
+                AI models and Machine Learning Algorithms.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up animation-delay-600">
+                <a href="#contact" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">Contact Me</a>
+                <a href="#projects" class="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white font-bold py-2 px-4 rounded">View Projects</a>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-pink-500 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+        </div>
+    </section>
+
+    <section id="experience" class="py-12 sm:py-16 md:py-20 bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gradient">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">AWS AI/ML Virtual Intern</h3>
+                    <p class="text-gray-400 mb-4">
+                        <span class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>EduSkills in collaboration with Chalapathi Institute of Technology</span>
+                        </span>
+                        <span class="flex items-center space-x-2 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <span>May 2023 - July 2023</span>
+                        </span>
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Gained proficiency in using AWS services such as Amazon SageMaker, AWS Lambda, and Amazon Recognition to build, train, and deploy machine learning models.</li>
+                        <li>Worked closely with academic mentors to define project objectives, ensuring alignment with both academic requirements and professional standards.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">AWS Data Engineering Virtual Internship</h3>
+                    <p class="text-gray-400 mb-4">
+                        <span class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>EduSkills in collaboration with Chalapathi Institute of Technology</span>
+                        </span>
+                        <span class="flex items-center space-x-2 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <span>April 2024 - June 2024</span>
+                        </span>
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Developed Design principles and patterns for pipelines.</li>
+                        <li>Worked closely with academic mentors to define project objectives, ensuring alignment with both academic requirements and professional standards.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-12 sm:py-16 md:py-20 bg-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gradient">Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6">
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">HTML</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">CSS</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">JavaScript</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">React</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo" class="w-16 h-16 object-contain transition-transform duration-300  group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">Java</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">Python</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">SQL</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+                <div class="bg-gray-900 border-2 hover:border-pink-500 transition-all duration-300 group overflow-hidden rounded-lg p-4">
+                    <h3 class="text-lg text-center group-hover:text-pink-500 transition-colors mb-4">Git</h3>
+                    <div class="flex justify-center items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-12 sm:py-16 md:py-20 bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gradient">Projects</h2>
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">YT Downloader Clone</h3>
+                    <p class="text-gray-400 mb-4">Developed a YouTube video downloader clone using Python, HTML, CSS, and JavaScript.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 mb-4">
+                        <li>Followed best practices for clean, maintainable code, version control with Git, and detailed project documentation.</li>
+                        <li>Demonstrating strong skills in API integration and command-line tool development.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">Python</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">HTML</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">CSS</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">JavaScript</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">Mini Music Player</h3>
+                    <p class="text-gray-400 mb-4">Designed and developed a mini music player using HTML, CSS, and JavaScript.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 mb-4">
+                        <li>Created a user-friendly interface with responsive design to enhance user experience.</li>
+                        <li>Implemented features including play, pause, and forward functionality to control in-built songs.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">HTML</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">CSS</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">JavaScript</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">Online Test Application</h3>
+                    <p class="text-gray-400 mb-4">Designed and developed an Online Test Application using Java.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 mb-4">
+                        <li>Implemented features including BookMarks and Next button to enhance user experience.</li>
+                        <li>Created a user-friendly interface to grab user attention.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">Java</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">HTML</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">CSS</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">Java</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border-2 border-gray-700 hover:border-pink-500 transition-all duration-300 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-2">Service Booking System</h3>
+                    <p class="text-gray-400 mb-4">Created a full stack responsive website for servie bookings</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 mb-4">
+                        <li>This space is reserved for an upcoming project.</li>
+                        <li>Stay tuned for more details and updates.</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">JAVA</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">mysql</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">HTML</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">CSS</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">JavaScript</span>
+                        <span class="bg-gray-700 text-pink-500 px-2 py-1 rounded-full text-sm">SpringBoot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-12 sm:py-16 md:py-20 bg-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gradient">Contact Me</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-900 border-2 border-gray-700 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-4">Send a Message</h3>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" required class="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-100">
+                        <input type="email" placeholder="Your Email" required class="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-100">
+                        <textarea placeholder="Your Message" required class="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md text-gray-100 h-32"></textarea>
+                        <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">Send Message</button>
+                    </form>
+                </div>
+                <div class="bg-gray-900 border-2 border-gray-700 rounded-lg p-6">
+                    <h3 class="text-2xl text-pink-500 mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-2 text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-500" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+                            <span>charankolli573@gmail.com</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-500" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            </svg>
+                            <span>+91 9490651712</span>
+                        </div>
+                        <div class="flex space-x-4 mt-4">
+                            <a href="https://www.linkedin.com/in/charan-kolli/" target="_blank" rel="noopener noreferrer" class="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/280104" target="_blank" rel="noopener noreferrer" class="border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-sm text-gray-400 bg-gray-900">
+        <p>&copy;2023 KOLLI SAI SRI CHARAN. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const menuToggle = document.getElementById('menuToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                    if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+
+            const sections = ['home', 'experience', 'skills', 'projects', 'contact'];
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.7,
+            };
+
+            const observerCallback = (entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const activeSection = entry.target.id;
+                        navLinks.forEach((link) => {
+                            if (link.getAttribute('href') === `#${activeSection}`) {
+                                link.classList.add('text-pink-500', 'font-semibold');
+                            } else {
+                                link.classList.remove('text-pink-500', 'font-semibold');
+                            }
+                        });
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+            sections.forEach((sectionId) => {
+                const section = document.getElementById(sectionId);
+                if (section) observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
